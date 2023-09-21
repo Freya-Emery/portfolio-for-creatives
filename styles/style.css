@@ -393,7 +393,7 @@ a:active {
 .work-page-grid-item {
   width: 100%;
   height: auto;
-  position: fixed;
+  position: relative;
   /* Required to contain overlay size */
 }
 
