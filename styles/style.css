@@ -77,7 +77,7 @@ html {
   --background-color-about: #f5f5f5;
   --background-color-footer: #f5f5f5;    
   --alt-background-color: #000000;
-  --background-color-holding-page: rgba(82, 0, 255,0.6);
+  --background-color-holding-page: beba4c;
   --h1-color: #304230;
   --h2-color: #304230;
   --h3-color: #304230;
@@ -94,9 +94,9 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --visited-color: #beba4c;
-  --project-title-color: #beba4c;
-  --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --project-title-color: #304230;
+  --project-sidebar-background-color: #beba4c;
+  --project-sidebar-text-color: #304230;
   --heart-color: darkred;
   --holding-page-footer-color: #beba4c;
   --text-selection-background-color: #5200ff;
@@ -393,7 +393,7 @@ a:active {
 .work-page-grid-item {
   width: 100%;
   height: auto;
-  position: relative;
+  position: fixed;
   /* Required to contain overlay size */
 }
 
