@@ -91,7 +91,7 @@ html {
   --overlay-title-color: #beba4c;
   --overlay-description-color: #ffffff;
   --hyperlink-color: #beba4c;
-  --hyperlink-alternate-color: orangered;
+  --hyperlink-alternate-color: #bb7a3d;
   --hover-color: #111;
   --visited-color: #beba4c;
   --project-title-color: #304230;
@@ -100,9 +100,9 @@ html {
   --heart-color: darkred;
   --holding-page-footer-color: #beba4c;
   --text-selection-background-color: #5200ff;
-  --linear-gradient-color-1: #ff057c;
-  --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575;
+  --linear-gradient-color-1: #e4db9e;
+  --linear-gradient-color-2: #bb7a3d;
+  --linear-gradient-color-3: #afa92d;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
