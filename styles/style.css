@@ -102,7 +102,7 @@ html {
   --text-selection-background-color: #5200ff;
   --linear-gradient-color-1: #e4db9e;
   --linear-gradient-color-2: #bb7a3d;
-  --linear-gradient-color-3: #afa92d;
+  --linear-gradient-color-3: #321575;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -385,7 +385,7 @@ a:active {
 /* Defining the work page grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 1rem;
   /* Magical, media-query-less responsiveness is achieved using the repeat() function and the auto placement keywords. To achieve wrapping, we can use the auto-fit. If you're using auto-fit, the content will stretch to fill the entire row width.  Specify a minimum width for the columns, using the minmax() function. The 1fr is what tells the browser to distribute the space between the columns so that each column equally gets one fraction of that space.  */
 }
@@ -583,10 +583,10 @@ a:active {
   width: 100%;
   padding: 1rem;
   /* Delete the following if you do not want a gradient background on the project page */
-  background-image: linear-gradient(-225deg,
+  /* background-image: linear-gradient(-225deg,
       var(--linear-gradient-color-1) 0%,
       var(--linear-gradient-color-2) 50%,
-      var(--linear-gradient-color-3) 100%);
+      var(--linear-gradient-color-3) 100%); */
 }
 
 
@@ -856,7 +856,7 @@ a.sub-navigation-link:hover {
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     grid-gap: 1rem;
   }
 
